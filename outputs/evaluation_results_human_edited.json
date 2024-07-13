@@ -15,7 +15,7 @@
         "student_answer": "To find out how many people speak only English in this group, we need to consider the total number of people who can speak English and account for those who can speak both languages.\n\nGiven that 10 people can speak both English and German, we can separate them out to avoid double counting. Here is the breakdown:\n- Total number of people who can speak German = 25\n- Number of people who can speak both English and German = 10\n\nSo, the number of people who can speak only English is calculated as follows:\nTotal number of people who can speak English = 30 - 25 (who can speak German) = 5\n\nTherefore, there are 5 people who speak only English in this group.",
         "teacher_grading": "0",
         "reviewer_feedback": "0",
-        "human_grading": "1"
+        "human_grading": "0"
     },
     {
         "student_answer": "1. We know that there are 10 people who can speak both English and German.\n2. There are 25 people who can speak German.\n3. To find out how many speak only English, we need to subtract the number of people who can speak both English and German from the total number of people who can speak German.\n4. So, the number of people who speak only English is 25 (people who speak German) - 10 (people who speak both) = 15 people.\n5. Therefore, there are 15 people who speak only English in the group of 30 people.",
@@ -273,7 +273,7 @@
         "student_answer": "To find out how many people speak only English, we can start by calculating the total number of people who can speak English. \n\nFrom the information provided, we know that there are 10 people who can speak both English and German. Since there are a total of 30 people in the group, and 25 of them can speak German, the remaining 5 people must be the ones who speak only English.\n\nTherefore, the number of people who speak only English is 5.",
         "teacher_grading": "0",
         "reviewer_feedback": "0",
-        "human_grading": "2"
+        "human_grading": "1"
     },
     {
         "student_answer": "Given that 25 people can speak German and 10 people can speak both English and German, we can calculate the number of people who speak only English by subtracting the number of people who can speak both languages from the total number of people who can speak English.\n\nTotal number of people who can speak English = Total number of people - Total number of people who can speak German\nTotal number of people who can speak English = 30 - 25\nTotal number of people who can speak English = 5\n\nNow, to find the number of people who speak only English, we subtract the number of people who speak both languages from the total number of people who can speak English:\n\nNumber of people who speak only English = Total number of people who can speak English - Number of people who can speak both\nNumber of people who speak only English = 5 - 10\nNumber of people who speak only English = -5\n\nSince the result is negative, it means that there are no people who speak only English in this group.",
@@ -285,7 +285,7 @@
         "student_answer": "1. Let's first calculate the total number of people who can speak English or German. Since 25 people can speak German and 10 people can speak both languages, we need to subtract the 10 people who can speak both from the total to avoid double-counting.\n\nTotal people who can speak English or German = 25 (German speakers) + 10 (Both speakers) = 35\n\n2. Next, we need to find out how many people speak only German by subtracting the number of people who can speak both languages from the total number of German speakers.\n\nPeople who speak only German = 25 (German speakers) - 10 (Both speakers) = 15\n\n3. Finally, to determine the number of people who speak only English, we subtract the number of people who speak only German and those who speak both from the total number of English or German speakers.\n\nPeople who speak only English = Total English or German speakers - People who speak only German - People who speak both\nPeople who speak only English = 30 (Total English or German speakers) - 15 (People who speak only German) - 10 (People who speak both)\nPeople who speak only English = 5\n\nTherefore, there are 5 people in the group who speak only English.",
         "teacher_grading": "1",
         "reviewer_feedback": "1",
-        "human_grading": "2"
+        "human_grading": "1"
     },
     {
         "student_answer": "1. Let's denote:\n- \\( E \\) as the number of people who can speak English,\n- \\( G \\) as the number of people who can speak German,\n- \\( B \\) as the number of people who can speak both English and German.\n\n2. We know that there are 30 people in total. So, \\( E + G - B = 30 \\) people.\n\n3. We are also given that there are 10 people who can speak both English and German. So, \\( B = 10 \\).\n\n4. Furthermore, we know that 25 people can speak German, i.e., \\( G = 25 \\).\n\n5. Substituting the given values into the equation from step 2, we have:\n\\( E + 25 - 10 = 30 \\)\n\\( E + 15 = 30 \\)\n\\( E = 30 - 15 = 15 \\)\n\n6. Therefore, there are 15 people who speak only English in the group.",
@@ -309,7 +309,7 @@
         "student_answer": "1. Let's denote the number of people who can speak only English as 'E' and the number of people who can speak only German as 'G'.\n2. From the information given, we know that there are 30 people in total, and 25 can speak German.\n3. Since 10 people can speak both English and German, we can write this as a Venn diagram equation: E + G + 10 = 30.\n4. We also know that 25 people can speak German, so G + 10 = 25. Therefore, G = 15.\n5. Substituting G = 15 back into the first equation, we get E + 15 + 10 = 30. Simplifying, E + 25 = 30, thus E = 5.\n6. Therefore, there are 5 people who speak only English in the group.",
         "teacher_grading": "1",
         "reviewer_feedback": "1",
-        "human_grading": "2"
+        "human_grading": "1"
     },
     {
         "student_answer": "To find out how many people speak only English, we need to deduct the number of people who can speak both English and German from the total number of people who can speak English.\n\nTotal number of people who can speak English = 30 - 25 (who can speak German) = 5\n\nHowever, 10 people can speak both English and German.\n\nTherefore, the number of people who speak only English = Total English speakers - English and German speakers\n= 5 - 10\n= -5\n\nSince we cannot have a negative number of people, there is an inconsistency in the numbers provided, and we would need to reassess the information to provide an accurate answer.",
@@ -369,13 +369,13 @@
         "student_answer": "To find out how many people speak only English, we first need to determine the total number of people who can speak English. \n\nGiven:\n- Total number of people = 30\n- Number of people who can speak both English and German = 10\n- Number of people who can speak German = 25\n\nWe can use the principle of inclusion-exclusion, where, \nTotal number of people who can speak English = Number of people who can speak only English + Number of people who can speak both English and German\n\nSo, the number of people who can speak only English = Total number of people who can speak English - Number of people who can speak both English and German\n\nNumber of people who can speak only English = Total number of people who can speak English - Number of people who can speak both English and German\nNumber of people who can speak only English = (Total number of people - Number of people who can speak German) - Number of people who can speak both languages\nNumber of people who can speak only English = (30 - 25) - 10\nNumber of people who can speak only English = 5 - 10\nNumber of people who can speak only English = 5\n\nTherefore, there are 5 people who speak only English in the group.",
         "teacher_grading": "0",
         "reviewer_feedback": "0",
-        "human_grading": "2"
+        "human_grading": "0"
     },
     {
         "student_answer": "1. Let's start by determining the total number of people who can speak English. Since there are 30 people in total and 25 can speak German, this means that there are 30 - 25 = 5 people who cannot speak German (and hence, they speak English).\n\n2. Now we know that 10 people can speak both English and German. Therefore, to find the number of people who speak only English, we subtract those who speak both languages from the total number who can speak English: 5 (total English speakers) - 10 (speak both) = 5 people speak only English.\n\nTherefore, 5 people speak only English in the group.",
         "teacher_grading": "0",
         "reviewer_feedback": "0",
-        "human_grading": "2"
+        "human_grading": "0"
     },
     {
         "student_answer": "To find out how many people speak only English, we need to calculate the total number of people who can speak English and then subtract the number who can speak both English and German.\n\nWe know that 25 people can speak German, and 10 can speak both English and German. Therefore, the number of people who can speak English is:\nTotal English speakers = Total number of people - German speakers\nTotal English speakers = 30 - 25\nTotal English speakers = 5\n\nHowever, out of these 5 English speakers, 10 people can speak both English and German. So, to find those who speak only English, we subtract the number who speak both languages:\nOnly English speakers = Total English speakers - Both English and German speakers\nOnly English speakers = 5 - 10\nOnly English speakers = -5\n\nSince we cannot have a negative number of people, it means there are none who speak only English in this group.",
@@ -405,7 +405,7 @@
         "student_answer": "To find out how many people speak only English, we can first calculate the total number of people who speak German. Since 25 people can speak German and 10 of them can speak both languages, we need to subtract those who can speak both languages to get the number of people who speak only German:\n\n25 (total who speak German) - 10 (who can speak both) = 15 people who speak only German\n\nNow, since the total group is comprised of 30 people, and we know that 15 speak only German, we can find out how many speak only English by subtracting the number of people who speak German (including those who can speak both) from the total group:\n\n30 (total group) - 15 (who speak only German) - 10 (who can speak both) = 5 people who speak only English\n\nSo, there are 5 people in the group who speak only English.",
         "teacher_grading": "1",
         "reviewer_feedback": "1",
-        "human_grading": "2"
+        "human_grading": "1"
     },
     {
         "student_answer": "1. Let's denote the number of people who speak only English as 'E', the number of people who speak only German as 'G', and the number of people who speak both as 'B'.\n2. We know that a total of 30 people are in the group, and 10 can speak both English and German. So, the number of people who speak only English can be calculated as follows:\n\nE + B = Total number of people who speak English\nE + 10 = (30 - 25) [total number of people who speak English - number of people who speak both]\nE + 10 = 5\nE = 5 - 10\nE = -5\n\n3. Since it doesn't make sense to have -5 people who speak only English, we can conclude that there are no people in the group who speak only English.\n4. Therefore, the number of people who speak only English is 0.",
@@ -423,7 +423,7 @@
         "student_answer": "1. Let's denote the number of people who can speak only English as \\(E\\).\n2. We know that the total number of people who can speak German is 25. Among these, 10 people can speak both English and German, so the number of people who can speak only German is \\(25 - 10 = 15\\).\n3. Since the total number of people in the group is 30, the number of people who can speak only English is given by \\(E = 30 - 15 - 10 = 5\\).\n4. Therefore, there are 5 people in the group who speak only English.",
         "teacher_grading": "1",
         "reviewer_feedback": "1",
-        "human_grading": "2"
+        "human_grading": "1"
     },
     {
         "student_answer": "Let's break down the information given:\n- Total number of people in the group = 30\n- Number of people who can speak German = 25\n- Number of people who can speak both languages (English and German) = 10\n\nTo find out how many people speak only English, we can subtract the number of people who can speak both languages from the total number of people who can speak German.\n\nNumber of people who speak only English = Total number of people who can speak German - Number of people who can speak both languages\nNumber of people who speak only English = 25 - 10\nNumber of people who speak only English = 15\n\nTherefore, there are 15 people who speak only English in the group of 30 people.",
@@ -477,7 +477,7 @@
         "student_answer": "1. Let's denote the number of people who can speak only English as \\(x\\).\n   \n2. We know that the total number of people who can speak German is 25 and that 10 people can speak both English and German. Therefore, the number of people who can only speak German is \\(25 - 10 = 15\\).\n   \n3. Since there are 30 people in total and we have accounted for 10 who speak both and 15 who speak only German, the remaining people must speak only English. So, the number of people who speak only English is \\(30 - 15 - 10 = 5\\).\n   \n4. Therefore, there are 5 people who speak only English in this group.",
         "teacher_grading": "1",
         "reviewer_feedback": "1",
-        "human_grading": "2"
+        "human_grading": "1"
     },
     {
         "student_answer": "Let's break down the information given:\n- Total number of people in the group = 30\n- Number of people who can speak both English and German = 10\n- Number of people who can speak German = 25\n\nTo find out how many speak only English, we can first calculate the total number of people who can speak English by subtracting the number of people who can speak both languages from the total number of people who can speak German or English.\n\nTotal number of people who can speak English = (Total number of people who can speak English or German) - (Number of people who can speak both languages)\nTotal number who can speak English = 30 - 10\nTotal number who can speak English = 20\n\nNow, to find the number of people who speak only English, we subtract the number of people who can speak both languages from the total number who can speak English.\n\nNumber of people who speak only English = Total number who can speak English - Number of people who can speak both languages\nNumber of people who speak only English = 20 - 10\nNumber of people who speak only English = 10\n\nTherefore, 10 people speak only English in the group.",
@@ -488,7 +488,8 @@
     {
         "student_answer": "To find out how many people speak only English, we will first subtract the total number of German speakers from the total number of people in the group:\n\nTotal number of people = 30\nNumber of German speakers = 25\n\nTherefore, the number of people who speak only English is:\n30 - 25 = 5\n\nSo, there are 5 people in the group who speak only English.",
         "teacher_grading": "0",
-        "reviewer_feedback": "0"
+        "reviewer_feedback": "0",
+        "human_grading": "1"
     },
     {
         "student_answer": "To find out how many people speak only English, we can calculate by finding the total number of people who speak English (both English and English-only speakers) and subtracting the number of people who speak both English and German.\n\nGiven that there are 30 people in total, and 25 can speak German, we know that there are 30 - 25 = 5 people who can only speak English or both English and German.\n\nSince 10 people can speak both English and German, we can deduce that 5 - 10 = -5 people is not possible; thus, it means there was a mistake in the given information.\n\nPlease check the information provided to address this discrepancy and provide the correct data so we can calculate how many speak only English accurately.",
@@ -506,13 +507,13 @@
         "student_answer": "Given that 10 people can speak both English and German, and a total of 25 people can speak German, we can find the number of people who speak only German by subtracting those who speak both languages from the total number of German speakers.\n25 (total German speakers) - 10 (both English and German) = 15 people who speak only German.\n\nSince the total group size is 30 people and we know that 15 speak only German, we can find the number of people who speak only English by subtracting the total number of German speakers (25) from the total group size.\n30 (total group size) - 25 (total German speakers) = 5 people who speak only English.\n\nTherefore, there are 5 people who speak only English in the group.",
         "teacher_grading": "0",
         "reviewer_feedback": "0",
-        "human_grading": "2"
+        "human_grading": "1"
     },
     {
         "student_answer": "To find out how many people speak only English, we first need to determine the total number of people who can speak English.\n\nWe know that 25 people can speak German and 10 people can speak both English and German. This means the number of people who can speak German but not English is 25 - 10 = 15.\n\nSince there are 30 people in total, to find out how many speak only English, we subtract the number of people who can speak English and German from the total number of English speakers. \n\nSo, the number of people who speak only English is 30 - 10 - 15 = 5. \n\nTherefore, there are 5 people who speak only English in the group.",
         "teacher_grading": "1",
         "reviewer_feedback": "1",
-        "human_grading": "2"
+        "human_grading": "1"
     },
     {
         "student_answer": "To find out how many people speak only English, we first need to determine the total number of people who can speak English. \n\nSince there are 10 people who can speak both English and German, we need to subtract them from the total 30 people to find the number of people who can speak English only. \n\nTotal number of people who can speak English = Total people - People who can speak both languages\nTotal people who can speak English = 30 - 10 = 20\n\nTherefore, 20 people speak English, but the question asks for the number of people who speak only English. \n\nSince the total number of people who can speak German is 25, those who speak only German are 25 - 10 = 15 people (subtracting those who speak both languages from the total German speakers).\n\nThus, the number of people who speak only English would be the difference between the total English speakers and those who speak both languages: 20 - 10 = 10 people who speak only English.",
@@ -524,7 +525,7 @@
         "student_answer": "To find out how many people speak only English, we can break down the group into different categories:\n\nLet's denote:\n- E: People who speak only English\n- G: People who speak only German\n- B: People who speak both English and German\n\nGiven information:\n- Total number of people in the group = 30\n- Number of people who can speak both English and German = 10\n- Number of people who can speak German = 25\n\nWe know that the formula for the total number of people in a group with some overlap is:\nTotal = E + G + B - (Overlap between each group)\n\nSubstitute the given values into the formula:\n30 = E + G + 10 - 10\n30 = E + G\n\nNow, we know that 25 people can speak German. Since there are 10 people who can speak both English and German, we can find the number of people who speak only German:\nG = G + B - (Overlap between G and B)\n25 = G + 10 - 10\n25 = G\n\nSubstitute G back into the equation:\n30 = E + 25\nE = 30 - 25\nE = 5\n\nTherefore, there are 5 people who speak only English in the group.",
         "teacher_grading": "0",
         "reviewer_feedback": "0",
-        "human_grading": "2"
+        "human_grading": "0"
     },
     {
         "student_answer": "1. Let's denote the number of people who can speak only English as \\(E\\).\n2. We are given that a total of 30 people are in the group.\n3. Out of the 30 people:\n   a) 10 people can speak both English and German.\n   b) 25 people can speak German.\n   c) The total number of people who can speak English, including those who can speak both languages, is \\(E + 10\\).\n4. Since the total number of people who can speak German is 25, we can write the following equation:\n\\[ E + 10 + 25 = 30 \\]\n\\[ E + 35 = 30 \\]\n\\[ E = 30 - 35 \\]\n\\[ E = -5 \\]\n5. However, it doesn't make sense to have a negative number of people who can speak only English, so we can conclude that there are 0 people who speak only English in this group.\n\nTherefore, based on the given information, no one speaks only English in this group.",
@@ -554,7 +555,7 @@
         "student_answer": "To find out how many people speak only English, we can first calculate the total number of people who speak German by subtracting the number of people who can speak both English and German from the total number of German speakers.\n\nTotal German speakers = 25\nGerman speakers who can also speak English = 10\n\nTherefore, the number of people who speak only German is:\n25 - 10 = 15\n\nSince the total group size is 30, the number of people who speak only English is:\n30 - 15 (who speak only German) - 10 (who speak both) = 5\n\nTherefore, 5 people speak only English in the group of 30 people.",
         "teacher_grading": "1",
         "reviewer_feedback": "1",
-        "human_grading": "2"
+        "human_grading": "1"
     },
     {
         "student_answer": "1. Let's start by determining the total number of people in the group who can speak German or/and English. Since 25 people can speak German and 10 can speak both English and German, we can calculate the total number of people who can speak either language as follows:\n\nTotal number of people who can speak either language = Number of people who can speak German + Number of people who can speak both languages\nTotal number of people who can speak either language = 25 (German speakers) + 10 (Both languages)\nTotal number of people who can speak either language = 35\n\n2. Since the total number of people in the group is 30, and 35 people can speak either German or English, it means there is an overlap, and the number of people who can speak both languages has been counted twice. Therefore, we need to adjust for this overlap by subtracting the number of people who can speak both languages.\n\nNumber of people who can speak only English = Total number of people who can speak English - Number of people who can speak both languages\nNumber of people who can speak only English = 30 (Total) - 10 (Both)\nNumber of people who can speak only English = 20\n\nSo, there are 20 people in the group who speak only English.",
@@ -566,7 +567,7 @@
         "student_answer": "To determine how many people speak only English in the group of 30 people where 10 can speak both English and German, and 25 can speak German, we can first find the total number of people who can speak English.\n\nLet:\n- Total number of people = 30\n- Number of people who can speak both English and German = 10\n- Number of people who can speak German = 25\n\nSince there are 10 people who can speak both English and German, we subtract this from the total number of people who can speak German to find the number of people who speak German only:\n25 (total who can speak German) - 10 (who can speak both) = 15 people who speak German only.\n\nNow, to find the number of people who speak English, we subtract the total number of people who speak German either exclusively or in combination:\n30 (total) - 25 (German speakers) = 5 people who speak English.\n\nTherefore, the number of people who speak only English would be:\n5 (total English speakers) - 0 (who speak both) = 5 people speak only English.",
         "teacher_grading": "1",
         "reviewer_feedback": "1",
-        "human_grading": "2"
+        "human_grading": "1"
     },
     {
         "student_answer": "To determine the number of people who speak only English in the group, we can break down the total group of 30 people into three categories based on their language skills:\n\n1. Those who speak only English,\n2. Those who speak only German, and\n3. Those who speak both English and German.\n\nGiven that:\n- 10 people can speak both English and German,\n- 25 people can speak German,\nwe can calculate the number of people who speak only English.\n\nTotal group size = 30\nNumber of people who can speak both English and German = 10\nNumber of people who can speak German = 25\n\nTherefore, to find out how many speak only English, we can subtract those who can speak German and those who can speak both from the total group:\nNumber of people who speak only English = Total group size - (Number who can speak both + Number who speak German)\nNumber of people who speak only English = 30 - (10 + 25)\nNumber of people who speak only English = 30 - 35\nNumber of people who speak only English = -5\n\nSince the result is negative, it means there is an error in the calculation or the information provided is inconsistent. Please recheck the data provided, as it currently indicates that more people can speak German and/or both languages than the total number of people in the group, which is not possible.",
@@ -578,7 +579,7 @@
         "student_answer": "To find out how many people speak only English, we can start by determining the number of people who can speak English. Since 25 people can speak German and 10 can speak both English and German, we can subtract these numbers from the total group size of 30 to find the number of people who can speak English only:\n\nNumber of people who can speak English = Total group size - Number of people who can speak German - Number of people who can speak both\nNumber of people who can speak English = 30 - 25 - 10\nNumber of people who can speak English = 30 - 35\nNumber of people who can speak English = -5\n\nSince it doesn't make sense to have a negative number of people speaking English, we can conclude that there was an error made in the calculation. Let's reevaluate the information and calculate it correctly. \n\nGiven:\n- Total group size = 30\n- Number of people who can speak English and German = 10\n- Number of people who can speak German = 25\n\nLet's find the number of people who speak only English:\nNumber of people who can speak English only = Total group size - Number of people who can speak German - Number of people who can speak both\nNumber of people who can speak English only = 30 - 25 - 10\nNumber of people who can speak English only = 30 - 35\nNumber of people who can speak English only = 5\n\nTherefore, 5 people speak only English in the group of 30 people.",
         "teacher_grading": "1",
         "reviewer_feedback": "0",
-        "human_grading": "2"
+        "human_grading": "0"
     },
     {
         "student_answer": "To find out how many people speak only English, we need to determine the total number of English speakers and then subtract those who speak both English and German.\n\nGiven that 25 people can speak German and 10 people can speak both English and German, we can calculate the number of English speakers as follows:\n\nTotal number of people = 30\nNumber of people who can speak German = 25\nNumber of people who can speak both English and German = 10\n\nNumber of people who can speak only English = Total number of English speakers - Number of people who can speak both English and German\nNumber of people who can speak only English = 30 - 10 = 20\n\nTherefore, 20 people speak only English in the group of 30 people.",
