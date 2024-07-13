@@ -21,7 +21,7 @@ def trigger_llm_app(context: str, question: str):
     return response.choices[0].message.content
 
 
-# LLm judge
+# LLM-Judge
 def eval_llm_app(context: str, question: str, predicted_answer: str):
     fmt_input = f"""Context: {context}\nQuestion: {
         question}\nStudent's Answer: {predicted_answer}"""
@@ -36,7 +36,7 @@ def eval_llm_app(context: str, question: str, predicted_answer: str):
     return response.choices[0].message.content
 
 
-# Superior LLM judge
+# Superior LLM-Judge
 def eval_llm_judge(context: str, question: str, student_answer: str, teacher_grading: str):
     fmt_input = f"""Context: {context}\nQuestion: {question}\nStudent's Answer: {
         student_answer}\nTeacher's Grading: {teacher_grading}"""
@@ -62,7 +62,7 @@ def evaluate(context: str, question: str):
     print(f"\nTeacher's grading:\n {teacher_grading}")
     print(f"\nReviewer's Feedback:\n {reviewer_feedback}")
 
-    # create a dictionary to store the results
+    # Create a dictionary to store the results
     try:
         results = {
             "student_answer": student_answer,
