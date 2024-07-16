@@ -80,8 +80,9 @@ Below are examples where the Reviewer successfully identified the Teacher's grad
         "reviewer_feedback": "0",
         "human_grading": "1"
     },
-    ```
+```
 
+<br>
 
 #### About the human evaluator:
 - Yes, I (the Author) am the human evaluator!
